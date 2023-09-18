@@ -1,0 +1,64 @@
+body {
+  background-color: beige;
+  font-family: 'Roboto', sans-serif;
+}
+
+#panda {
+  width: 50%;
+  display: block;
+  margin: 0 auto;
+}
+
+h2.headline, h3 {
+  color: red; 
+  text-align: center; 
+  font-size: 40px;
+  font-weight: bold;
+}
+
+div.subheader, div.footer-element {
+  color: brown; 
+  text-align: center; 
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+.intro {
+  background-color: rgb(244, 244, 170);
+}
+
+.main-text {
+  background-color: rgb(249, 214, 219); 
+}
+
+.main-text::before {
+  content: "«";
+  color: brown;
+}
+
+.main-text::after {
+  content: "»";
+  color: brown;
+}
+
+.main-text {
+  content: " PubMed";
+  color: red;
+}
+
+#text-more {
+  background-color: rgb(241, 201, 166); 
+}
+
+.bald-idea {
+  background-color: rgb(240, 191, 217);
+}
+
+span {
+  font-weight: bold;
+  color: red;
+}
+
+#endtext {
+  background-color: rgb(244, 244, 170);
+}
