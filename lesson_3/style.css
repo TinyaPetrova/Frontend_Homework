@@ -1,0 +1,29 @@
+p:nth-child(2) {
+    background-color: beige;
+    border: 1px solid rgb(249, 178, 178);
+    padding: 8px;
+}
+
+p:nth-child(3) {
+    background-color: beige;
+    border: 2px solid rgb(255, 160, 160);
+    padding: 10px;
+}
+
+p:nth-child(4) {
+    background-color: beige;
+    border: 3px solid rgb(253, 64, 64);
+    padding: 12px;
+}
+
+p:nth-child(5) {
+    background-color: beige;
+    border: 3px solid red;
+    padding: 14px;
+}
+
+
+p:nth-child(5) span, p:nth-child(5) span span {
+    border: 2px solid blue;
+}
+
