@@ -7,7 +7,7 @@ const getElementByIndex = (array, index) => {
 };
 
 const myArray = ["apple", "banana", "cherry", "pineapple"];
-const indexToGet = 2;
+const indexToGet = 3;
 
 const result = getElementByIndex(myArray, indexToGet);
 console.log(result);
